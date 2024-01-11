@@ -2,7 +2,7 @@ import psycopg2
 
 conn = psycopg2.connect(host="localhost", port=4566, user="root", dbname="dev")
 
-conn.autocommit = True # Set queries to be automatically committed.
+conn.autocommit = True#Set queries to be automatically committed.
 
 with conn.cursor() as cur:
     cur.execute("""
@@ -20,6 +20,6 @@ with conn.cursor() as cur:
         COUNT(*) > 3; -- Threshold for error occurrences
 
 
- """) # Execute the query.
+ """)#Execute the query.
 
-conn.close() # Close the connection.
+conn.close()#Close the connection.
