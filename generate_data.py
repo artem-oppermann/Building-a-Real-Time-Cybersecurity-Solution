@@ -6,7 +6,7 @@ def generate_synthetic_log_entry():
     # Define a set of fake IP addresses to simulate network traffic
     ip_addresses = ["192.168.1.{}".format(i) for i in range(1, 101)]
 
-    # Define a set of user names
+    # Define a set of usernames
     users = ["user{}".format(i) for i in range(1, 21)]
 
     # Define a set of actions
