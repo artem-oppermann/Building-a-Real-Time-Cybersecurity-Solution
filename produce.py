@@ -39,5 +39,5 @@ def produce_data_from_file(file_path):
 # Path to your data file
 file_path = 'synthetic_log_data.json'  # Replace with your actual file path
 
-# Start producing data to Kakfa topic
+# Start producing data to the Kafka topic
 produce_data_from_file(file_path)
