@@ -1,6 +1,5 @@
 import psycopg2
 
-#conn = psycopg2.connect(database="dev", user="root", password="", host="localhost", port="4566") # Connect to RisingWave.
 conn = psycopg2.connect(host="localhost", port=4566, user="root", dbname="dev")
 
 
