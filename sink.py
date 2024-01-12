@@ -13,6 +13,6 @@ with conn.cursor() as cur:
         topic='anomalies'
         ) FORMAT PLAIN ENCODE JSON (
         force_append_only='true',
-        );""")#Execute the query
+        );""") # Execute the query
             
 conn.close() 
